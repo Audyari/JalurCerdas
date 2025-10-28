@@ -1,8 +1,6 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'out',
+  // Hapus 'output: export' jika ada, kecuali butuh static export
   trailingSlash: true,
 }
 
