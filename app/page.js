@@ -1,8 +1,11 @@
+export const dynamic = 'force-static'
+export const revalidate = 60
+
 export default function Home() {
   return (
-    <main>
-      <h1>Selamat Datang di JalurCerdas</h1>
-      <p>Aplikasi Anda berhasil di-deploy!</p>
-    </main>
+    <div>
+      <h1>Jalur Cerdas</h1>
+      <p>Hello from Production!</p>
+    </div>
   )
 }
